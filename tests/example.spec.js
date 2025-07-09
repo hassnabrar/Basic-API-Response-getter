@@ -32,6 +32,7 @@ test('Get APIs data and save to PDF', async () => {
   doc.moveDown();
 
   //Use the code below if you have a request body for post put patch etc
+  
   // doc.fontSize(12).text('Request Body:');
   // doc.fontSize(10).text(JSON.stringify(requestBody, null, 2));
   // doc.moveDown();
