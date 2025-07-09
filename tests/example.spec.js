@@ -41,9 +41,7 @@ test('Get APIs data and save to PDF', async () => {
     width: 500,
     lineGap: 2,
   });
-
   doc.end();
-
   console.log(`✅ PDF saved to ${pdfPath}`);
 });
 
